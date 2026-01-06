@@ -1,7 +1,6 @@
 attendance = [18, 20, 19, 15, 21]
 full_days = 0
 total_attendance = 0
-
 for day in attendance:
     if day >= 20:
         print("Full")
