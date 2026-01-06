@@ -1,7 +1,7 @@
-python_students = {"Alice", "Bob", "Charlie"}
-data_science_students = {"Charlie", "David", "Eve"}
-python_students.add("Frank")
-data_science_students.remove("Eve")
+python_students = {"riya", "Benny", "aju"}
+data_science_students = {"aju", "David", "alib"}
+python_students.add("james")
+data_science_students.remove("alib")
 both_courses = python_students & data_science_students
 print("Students in both courses:", both_courses)
 only_python = python_students - data_science_students

@@ -1,7 +1,6 @@
 frontend_students = {"Aiha", "liha", "heza"}
 backend_students = {"heza", "uhan", "luah"}
 backend_students.add("leen")
-
 frontend_students.remove("liha")
 both_courses = frontend_students & backend_students
 print("Students in both courses:", both_courses)
